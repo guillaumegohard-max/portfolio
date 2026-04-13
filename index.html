@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Leaflet Map Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <title>Guillaume Gohard | Engineering Portfolio</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <div class="nav-logo">Guillaume Gohard</div>
+            <ul class="nav-menu">
+                <li><a href="#introduction">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="name-title">Guillaume Gohard</h1>
+                <div class="title-underline"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section id="introduction" class="introduction">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <p class="intro-line">Engineering student at ENSAM, a prestigious engineering school in France, seeking to add value to forward-thinking technical teams.</p>
+                    <p class="intro-line">Strong foundation in engineering design and innovation, with a proactive approach to problem-solving. Highly organized and results-driven, with a proven track record of delivering projects effectively and efficiently</p>
+                    <p class="intro-line">Seeking graduate opportunities at leading U.S. universities to advance research in mechanical, industrial or aerospace engineering solutions.</p>
+                </div>
+                <div class="intro-photo">
+                    <div class="photo-placeholder">
+                        <img src="Photos/Photo_CV.jpeg" alt="Guillaume Gohard" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-header">
+                    <div class="education-header-left">
+                        <img src="Photos/ENSAM.png" alt="ENSAM Logo" class="org-logo">
+                        <div>
+                            <h3>Master of Engineering </h3>
+                            <p class="institution">École Nationale Supérieure d'Arts et Métiers (ENSAM)</p>
+                            <p class="location">Metz, France</p>
+                        </div>
+                    </div>
+                    <div class="date">2025 – Present</div>
+                </div>
+                <div class="education-content">
+                    <div class="subsection">
+                        <h4>Main Subjects</h4>
+                        <ul>
+                            <li>Advanced Mechanics of Materials and Structures</li>
+                            <li>Finite Element Analysis and Computational Methods</li>
+                            <li>Manufacturing Processes and Industrial Engineering</li>
+                            <li>Electrical, Electronics and Control Systems</li>
+                            <li>Thermodynamics and Energy Systems</li>
+                            <li>Fluid Mechanics and Heat Transfer</li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <h4>Academic Achievements</h4>
+                        <ul>
+                            <li>Ranked 142nd out of 1,266 students, with a GPA of 4.04/4.00</li>
+                            <li>Selected for competitive international exchange program</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="education-card">
+                <div class="education-header">
+                    <div class="education-header-left">
+                        <img src="Photos/JF.jpg" alt="Jules Ferry Logo" class="org-logo">
+                        <div>
+                            <h3>Preparatory classes</h3>
+                            <p class="institution">Jules Ferry High School (PTSI/PT*)</p>
+                            <p class="location">Versailles, France</p>
+                        </div>
+                    </div>
+                    <div class="date">2023 – 2025</div>
+                </div>
+                <div class="education-content">
+                    <div class="subsection">
+                        <ul>
+                            <li>Intensive two-year program preparing for competitive national engineering school entrance exams. </li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <h4>Main Subjects</h4>
+                        <ul>
+                            <li>Advanced Mathematics</li>
+                            <li>Advanced Physics and Chemistry</li>
+                            <li>Advanced Industrial Engineering</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-header">
+                    <div class="education-header-left">
+                        <img src="Photos/NDG.jpg" alt="Notre Dame du Grandchamp Logo" class="org-logo">
+                        <div>
+                            <h3>European French Baccalaureate with Highest Honors </h3>
+                            <p class="institution">Notre Dame du Grandchamp High School</p>
+                            <p class="location">Versailles, France</p>
+                        </div>
+                    </div>
+                    <div class="date">2020 – 2023</div>
+                </div>
+                <div class="education-content">
+                    <div class="subsection">
+                        <h4>Main Subjects</h4>
+                        <ul>
+                            <li>Mathematics</li>
+                            <li>Physics and Chemistry</li>
+                            <li>Biology</li>
+                            <li>German Language and Literature</li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <h4>Academic Achievements</h4>
+                        <ul>
+                            <li>Baccalaureate with Highest Honors</li>
+                            <li>National Mathematics Competition (Concours Général) - 2023</li>
+                            <li>Expert Mathematics Option (French Baccalaureate)</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-header-left">
+                        <img src="Photos/SAFT.png" alt="SAFT Logo" class="org-logo">
+                        <div>
+                            <h3>Blue Collar Engineering Internship</h3>
+                            <p class="company">SAFT Batteries</p>
+                            <p class="location">Bordeaux, France</p>
+                        </div>
+                    </div>
+                    <div class="date">June 2026 – August 2026</div>
+                </div>
+                <ul class="experience-bullets">
+                    <li>Supported daily operations on an aerospace battery production line within a high-standard industrial environment.</li>
+                    <li>Gained hands-on exposure to manufacturing processes, quality control procedures, and aerospace production constraints.</li>
+                    <li>Assisted technical teams in monitoring production workflows and ensuring compliance with industry standards</li>
+                    <li>Developed a practical understanding of industrial systems and the full product lifecycle in a regulated aerospace setting</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-header-left">
+                        <img src="Photos/AMJE.jpeg" alt="AMJE Logo" class="org-logo">
+                        <div>
+                            <h3>Quality & Performance Officer</h3>
+                            <p class="company">AMJE, Junior Enterprise</p>
+                            <p class="location">Paris, France</p>
+                        </div>
+                    </div>
+                    <div class="date">Mars 2026 – Present</div>
+                </div>
+                <ul class="experience-bullets">
+                    <li>Certified the quality of project deliverables and commercial proposals</li>
+                    <li>Monitored and analysed Junior Enterprise performance indicators</li>
+                    <li>Developed and improved quality management processes</li>
+                    <li>Prepared documentation and coordinated internal/external audits</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>ENSAM Project — Development of a Railway Training Center (2025–Present)</h3>
+                        <p class="project-purpose"><strong>Purpose:</strong> Design and develop a comprehensive railway training center with modern educational infrastructure and industry-aligned curriculum.</p>
+                        <ul class="project-bullets">
+                            <li>Conducted research on railway technologies (signalling, maintenance, safety)</li>
+                            <li>Analysed technical and training needs through consultations with industry professionals</li>
+                            <li>Defined requirements and proposed technical and educational solutions</li>
+                        </ul>
+                    </div>
+                    <div class="project-image">
+                        <img src="Photos/railway-training-center.jpg" alt="Railway Training Center Project">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Workshop Jib Crane Design Project (September 2025–January 2026)</h3>
+                        <p class="project-purpose"><strong>Purpose:</strong> Design a workshop jib crane from concept to validation</p>
+                        <ul class="project-bullets">
+                            <li>Conducted requirements analysis based on functional and safety constraints</li>
+                            <li>Performed static analysis to evaluate load capacity and structural behaviour</li>
+                            <li>Selected appropriate materials considering strength, weight, and durability</li>
+                            <li>Carried out numerical calculations to validate mechanical performance</li>
+                            <li>Developed the 3D model using 3DExperience</li>
+                            <li>Performed finite element analysis (FEA) to verify stress distribution and structural integrity</li>
+                        </ul>
+                    </div>
+                    <div class="project-image">
+                        <img src="Photos/Potence.png" alt="Workshop Jib Crane Design Project">
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Preparatory classes project — Design of an Induction Charger (2024–2025)</h3>
+                        <p class="project-purpose"><strong>Purpose:</strong> Design and build a functional induction charger, including comprehensive circuit study, modelling, prototyping, and testing.</p>
+                        <ul class="project-bullets">
+                            <li>Designed and built an induction charger, including circuit study, modelling, prototyping, and testing</li>
+                            <li>Selected and justified appropriate technical solutions</li>
+                            <li>Strengthened skills in practical electronics, technical reasoning, problem-solving, rigour, and autonomy</li>
+                        </ul>
+                    </div>
+                    <div class="project-image">
+                        <img src="Photos/TIPE.jpg" alt="Induction Charger Design Project">
+                    </div>
+                </div>
+                
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>High School Hoodie Project (2023)</h3>
+                        <p class="project-purpose"><strong>Purpose:</strong> Design and manage the development of a high school hoodie product, incorporating student feedback and supplier coordination.</p>
+                        <ul class="project-bullets">
+                            <li>Designed the hoodie and analysed student needs before selecting the final model</li>
+                            <li>Participated in purchasing decisions and liaised with suppliers</li>
+                            <li>Developed skills in creativity, marketing awareness, customer needs analysis, teamwork, and project management</li>
+                        </ul>
+                    </div>
+                    <div class="project-image">
+                        <img src="Photos/class-hoodie.jpg" alt="Class Hoodie Project">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Mechanical Engineering</h3>
+                    <ul>
+                        <li>Solid Mechanics & Stress Analysis</li>
+                        <li>Electronics, Electrical Engineering and Automation</li>
+                        <li>Thermodynamics & Heat Transfer</li>
+                        <li>Fluid Mechanics</li>
+                        <li>Materials</li>
+                        <li>Geometric Dimensioning & Tolerancing (GD&T)</li>
+                        <li>Requirements analysis, product design and product development</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional & Soft Skills</h3>
+                    <ul>
+                        <li>Project Management & Team Leadership</li>
+                        <li>Technical Writing & Documentation</li>
+                        <li>Problem-Solving & Critical Thinking</li>
+                        <li>Presentation & Public Speaking</li>
+                        <li>Time Management & Prioritization</li>
+                        <li>Adaptability & Continuous Learning</li>
+                        <li>Attention to Detail & Quality Focus</li>
+                    </ul>
+                </div>
+                
+
+                <div class="skill-category">
+                    <h3>Programming & Data Analysis</h3>
+                    <ul>
+                        <li>Python (NumPy, SciPy, Matplotlib)</li>
+                        <li>MATLAB & Simulink</li>
+                        <li>SQL & Database Management</li>
+                        <li>Microsoft Office Suite</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Manufacturing & Prototyping</h3>
+                    <ul>
+                        <li>CNC Machining (Milling, Turning)</li>
+                        <li>Composite Manufacturing (Layup, Vacuum Bagging)</li>
+                        <li>Welding (MIG, TIG)</li>
+                        <li>Quality Control & Inspection</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>CAD/CAE Software</h3>
+                    <ul>
+                        <li>SolidWorks</li>
+                        <li>CATIA</li>
+                        <li>3D Experience</li>
+                        <li>Abaqus CAE & Standard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages">
+        <div class="container">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages-grid">
+                <div class="language-item">
+                    <h3>French</h3>
+                    <p>Native</p>
+                </div>
+                <div class="language-item">
+                    <h3>English</h3>
+                    <p>Fluent (TOEFL iBT: ?/120),(TOEIC : ?/990)</p>
+                </div>
+                <div class="language-item">
+                    <h3>German</h3>
+                    <p>Intermediate (B2 Level)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swimming & Interests -->
+    <section class="interests">
+        <div class="container">
+            <h2 class="section-title">Personal Interests</h2>
+            
+            <!-- Swimming Feature -->
+            <div class="swimming-section">
+                <div class="swimming-content">
+                    <h3 class="swimming-title">Competitive Swimming</h3>
+                    <p class="swimming-description">
+                        Competitive swimmer with national-level achievement. Trained extensively across multiple countries including the United States, United Kingdom, France, and Spain through specialized swimming camps. Demonstrated dedication to athletic excellence through rigorous training regimens and international competition exposure.
+                    </p>
+                    <div class="swimming-highlights">
+                        <div class="highlight-item">
+                            <strong>United States:</strong> Participated in two high-performance training camps led by Olympic swimming coach Nick Baker in LA. 
+                        </div>
+                        <div class="highlight-item">
+                            <strong>United Kingdom:</strong> Participated in more than 10 intensive swim camps led by Olympian Edward Sinclair across the UK.
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Spain:</strong>  2 Elite Swimming Training Camps — Colònia de Sant Jordi, Mallorca
+                        </div>
+                        <div class="highlight-item">
+                            <strong>France:</strong> Achieved national-level competition status in France while training and competing across the country.
+                        </div>
+                    </div>
+                </div>
+                <!-- Map Section -->
+                <div class="swimming-map-container">
+                    <h4>Training Locations</h4>
+                    <div id="swimming-map" style="width: 100%; height: 400px; border-radius: 12px; background: #f0f0f0;"></div>
+                    
+                    <!-- Skills Developed -->
+                    <div class="skills-developed" style="margin-top: 2rem; padding: 1.5rem; background: #f7fafc; border-radius: 8px; border-left: 4px solid #3182ce;">
+                        <h5 style="color: #1a365d; font-weight: 600; margin-bottom: 0.75rem;">Skills Developed</h5>
+                        <p style="color: #4a5568; line-height: 1.7; font-size: 0.95rem;">I developed strong discipline, resilience, and a results-driven mindset. Training in demanding environments strengthened my adaptability, stress management, and ability to perform under pressure, while teamwork and goal-setting reinforced my commitment to continuous improvement and excellence.</p>
+                    </div>
+                </div>
+
+                <!-- Photo Gallery -->
+                <div class="swimming-gallery-container">
+                    <h4>Training & Competition Highlights</h4>
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_0929 2.JPG" alt="Swimming training photo 1">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_2986.jpeg" alt="Swimming training photo 2">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_8990.jpeg" alt="Swimming training photo 3">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_1725 2.JPG" alt="Swimming training photo 4">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_3664 2.JPG" alt="Swimming training photo 5">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_7235 2.JPG" alt="Swimming training photo 6">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_7269 2.JPG" alt="Swimming training photo 7">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_7272 2.JPG" alt="Swimming training photo 8">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="Photos/IMG_3780.JPG" alt="Swimming training photo 9">
+                            </div>
+                        </div>
+                        <button class="carousel-btn carousel-prev">❮</button>
+                        <button class="carousel-btn carousel-next">❯</button>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                            <span class="indicator" data-slide="3"></span>
+                            <span class="indicator" data-slide="4"></span>
+                            <span class="indicator" data-slide="5"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Violin & Orchestra Section -->
+            <div class="interest-section">
+                <h3 class="interest-title">Violin & Orchestra</h3>
+                <p class="interest-description">
+                    Accomplished violinist with extensive experience in orchestral performance and chamber music. Developed strong musicianship through rigorous training, ensemble collaboration, and participation in prestigious orchestral programs. Music provides creative balance to technical pursuits.
+                </p>
+            </div>
+
+            <!-- Tennis Section -->
+            <div class="interest-section">
+                <h3 class="interest-title">Tennis</h3>
+                <p class="interest-description">
+                    Passionate tennis player dedicated to continuous improvement and competitive play. Developed strategic thinking, agility, and mental resilience through regular training and tournament participation. Tennis complements athletic pursuits with focus on precision and tactical awareness.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <p class="contact-text">I welcome opportunities to discuss graduate programs, research collaborations, and professional connections in mechanical engineering.</p>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>12 Rue Félix Savart, Metz, France</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <a href="tel:+33612345678">+33 (0) 7 69 00 35 91 </a>
+                    </div>
+                    <div class="contact-info-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        <a href="mailto:guillaume.gohar@gmail.com">guillaume.gohar@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/guillaume-gohard-4a0893284/" target="_blank" class="contact-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Guillaume Gohard. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>    
+</body>
+</html>
