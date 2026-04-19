@@ -168,6 +168,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 details: '60 W Olsen Rd, Thousand Oaks, CA 91360, États-Unis',
                 color: '#3182ce'
             },
+            {
+                name: 'Swimming Location, Los Angeles, USA',
+                coord: [34.07137, -118.44412],
+                details: 'Los Angeles, CA, États-Unis',
+                color: '#3182ce'
+            },
             // UK - 4 locations
             {
                 name: 'Guildford Spectrum Leisure Complex, UK',

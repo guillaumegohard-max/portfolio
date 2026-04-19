@@ -694,6 +694,12 @@ section {
     margin: 0 auto;
 }
 
+.violin-gallery-container .carousel {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .carousel-track {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
